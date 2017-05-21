@@ -1,0 +1,165 @@
+/* General page */
+body {
+	font-size:12px;
+	color:black;
+	background-color:white;
+	overflow:auto;
+	background-image:url('images/upbar.png');
+	background-repeat:repeat-x;
+}
+p {
+	font-family: Helvetica,Arial,Verdana,sans-serif;
+	font-size: 14px;
+}
+#page {
+	margin: 0 auto;
+	width: 980px;
+}
+
+/* Firefox fix */
+img{ 
+	border: none;
+}
+
+a[href] {
+	font-weight: bold;
+	color: #5353b1;
+}
+
+/* Logo */
+.header a img {		
+	float: left;
+	clear: both;
+	text-align: left;			
+	height: 100px;
+}		
+
+/* Buttons */
+ul.idTabs {
+	float: left;
+	margin: 4px;
+	margin-bottom: 8px;
+	list-style-type: none;
+	padding: 0px; 
+	clear: left;
+
+}
+ul.idTabs li {
+	display: inline;
+	border-radius: 4px;
+	float: left;
+	background-color: #aae2eb;
+	padding: 0px;
+	margin: 4px;
+}
+ul.idTabs li a {
+	float: left;
+	text-decoration: none;
+	color: black;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 3px 8px;
+	margin: 4px;
+	font-family: "American Typewriter","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+	font-weight: bold;
+}
+ul.idTabs li:hover {
+	border-radius: 4px;
+	background-color: #caf8ff;
+}
+
+/* Separator */
+#separator{
+	border-style: solid;
+	border-color: #aae2eb;
+	clear:both;
+}
+
+/* Where i have to write */
+.box {
+	overflow:hidden;		
+	
+	margin-top:1em; 
+	background: #aae2eb;
+	border-radius: 4px;
+	border: 6px solid #6dd1e1;
+	display: none;
+}
+
+/* Writing Style */
+.textbox {
+	overflow:hidden;	
+	
+	margin: 0px 40px;
+	font-size:16px; 
+	line-height:1.4em;
+	text-decoration: none;
+	color: black;
+	font-family:Calibri, Helvetica, Arial;
+}
+
+/* Title */
+p.title1 {
+	font-size:20px; 
+	line-height:1.4em;
+	text-decoration: none;
+	color: black;
+	font-family:Calibri, Helvetica, Arial;
+	font-weight: bold;
+}
+
+/* text */
+p.text1{
+	font-size:16px; 
+	line-height:1.4em;
+	text-decoration: none;
+	color: black;
+	font-family:Calibri, Helvetica, Arial;
+}
+
+/* gallery of screenshots */
+.gallery dl {
+	text-align:center;
+	font-size:.95em;
+}
+
+.gallery a:hover img {
+	background:#4d39de;
+} 
+
+.gallery dt {
+	width:9em;
+	float:left;
+	margin-left:4.5em;
+	margin-right:5em;
+	margin-bottom: 3em;
+}
+
+.gallery img {
+	vertical-align:bottom;
+	border:1px solid #999;
+	padding:2px;
+	background:#fff;
+} 
+
+/* Units */
+#units {
+	margin-top: 15px;
+	float: left;
+}
+
+#units a img {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 40px;
+}	
+
+/* License */
+#license {
+	margin-top: 15px;
+	float: right;
+}
+
+#license a img {
+	height: 30px;
+}
